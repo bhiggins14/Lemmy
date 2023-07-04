@@ -12,7 +12,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@codeberg.org:jlh/lemmies.git
+    repoURL: https://github.com/bhiggins14/Lemmy.git
     targetRevision: HEAD
     path: 'argo/'
   destination:
