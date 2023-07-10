@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  k6-operator:
+  - apiVersion: v1
+    appVersion: 0.0.6
+    created: "2023-07-10T16:19:08.1052188-07:00"
+    description: A Helm chart to install the k6 operator
+    digest: 9bd15f6960ae704d104a9fef01f9f8d329cd693b2747a5d03d4ef5bb4d8eb261
+    home: https://k6.io
+    icon: https://raw.githubusercontent.com/grafana/k6-docs/main/static/images/icon.png
+    keywords:
+    - load-testing
+    - smoke-testing
+    - stress-testing
+    - soak-testing
+    - kubernetes
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: yorugac@gmail.com
+      name: yorugac
+    name: k6-operator
+    sources:
+    - https://github.com/grafana/k6-operator
+    urls:
+    - k6-operator-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-07-10T16:19:08.1036062-07:00"
