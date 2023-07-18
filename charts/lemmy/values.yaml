@@ -288,7 +288,13 @@ postgresql:
 
   service:
     port: 5432
+    
+  persistence:
+    enabled: true
+    accessMode: ReadWriteOnce
+    size: 16Gi
 
+    
 ingress:
   enabled: true
   className: ""
